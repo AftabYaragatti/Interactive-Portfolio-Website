@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Output</title>
+</head>
+<body>
+    <!-- ================= PROJECT GALLERY START ================= -->
+
+<style>
+/* Section */
+.project-gallery {
+  padding: 40px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.project-gallery h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #0d6efd;
+  letter-spacing: 1px;
+}
+
+/* Grid */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+/* Thumbnail images */
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+}
+
+/* Modal Background */
+.modal-gallery {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0; top: 0;
+  background: rgba(0,0,0,0.85);
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+}
+
+/* Modal content */
+.modal-gallery-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+  animation: zoomIn .4s ease;
+}
+
+.modal-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Close Button */
+.gallery-close {
+  position: absolute;
+  top: -50px;
+  right: 0;
+  font-size: 38px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Navigation Buttons */
+.gallery-prev,
+.gallery-next {
+  position: absolute;
+  top: 50%;
+  padding: 15px 20px;
+  font-size: 30px;
+  font-weight: bold;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border-radius: 6px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.gallery-prev:hover,
+.gallery-next:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.gallery-prev { left: -60px; }
+.gallery-next { right: -60px; }
+
+.back-home-wrapper {
+  width: 100%;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.back-home-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #0057ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 87, 255, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.back-home-btn:hover {
+  background: #0a3be6;
+  box-shadow: 0 6px 16px rgba(0, 64, 200, 0.4);
+  transform: translateY(-3px);
+}
+
+
+/* Zoom animation */
+@keyframes zoomIn {
+  from { transform: scale(0.9); opacity: 0; }
+  to   { transform: scale(1); opacity: 1; }
+}
+</style>
+
+
+
+<!-- HTML -->
+<div class="project-gallery">
+  <h2>Lung Cancer Detection using CT Image Processing</h2>
+
+  <div class="gallery-grid">
+    <img src="./P2-101.jpg" data-index="0">
+    <img src="./P2-102.jpg" data-index="1">
+    <img src="./P2-103.jpg" data-index="2">
+    <img src="./P2-104.jpg" data-index="3">
+    <img src="./P2-105.jpg" data-index="4">
+    <img src="./P2-106.jpg" data-index="5">
+    <img src="./P2-107.jpg" data-index="6">
+    <img src="./P2-108.jpg" data-index="7">
+    <img src="./P2-109.jpg" data-index="8">
+    <img src="./P2-110.jpg" data-index="9">
+    <img src="./P2-111.jpg" data-index="10">
+    <img src="./P2-112.jpg" data-index="11">
+    <img src="./P2-113.jpg" data-index="12">
+    <img src="./P2-114.jpg" data-index="13">
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal-gallery" id="imgModal">
+  <span class="gallery-close" id="closeModal">&times;</span>
+
+  <div class="modal-gallery-content">
+    <span class="gallery-prev" id="prevBtn">&#10094;</span>
+    <img id="modalImage">
+    <span class="gallery-next" id="nextBtn">&#10095;</span>
+  </div>
+</div>
+<div class="back-home-wrapper">
+  <a href="C:\Users\User\OneDrive\Desktop\Projects\Interactive-Portfolio-Website\project\project_index.html" class="back-home-btn" target="_blank">← Back to Project Page</a>
+  <a href="C:\Users\User\OneDrive\Desktop\Projects\Interactive-Portfolio-Website\index.html" class="back-home-btn"target="_blank">← Back to Home Page</a>
+</div>
+
+
+<!-- JS -->
+<script>
+const galleryImages = document.querySelectorAll(".gallery-grid img");
+const modal = document.getElementById("imgModal");
+const modalImg = document.getElementById("modalImage");
+const closeModal = document.getElementById("closeModal");
+const prevBtn = document.getElementById("prevBtn");
+const nextBtn = document.getElementById("nextBtn");
+
+let index = 0;
+
+// Open modal
+galleryImages.forEach((img, i) => {
+  img.addEventListener("click", () => {
+    index = i;
+    modal.style.display = "flex";
+    modalImg.src = img.src;
+  });
+});
+
+// Close modal
+closeModal.onclick = () => {
+  modal.style.display = "none";
+};
+
+// Next image
+nextBtn.onclick = () => {
+  index = (index + 1) % galleryImages.length;
+  modalImg.src = galleryImages[index].src;
+};
+
+// Previous image
+prevBtn.onclick = () => {
+  index = (index - 1 + galleryImages.length) % galleryImages.length;
+  modalImg.src = galleryImages[index].src;
+};
+
+// Click outside closes modal
+modal.onclick = (e) => {
+  if (e.target === modal) modal.style.display = "none";
+};
+</script>
+
+<!-- ================= PROJECT GALLERY END ================= -->
+
+</body>
+</html>

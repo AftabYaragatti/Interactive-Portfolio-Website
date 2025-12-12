@@ -1,0 +1,105 @@
+/* === General Reset === */
+* { margin:0; 
+  padding:0; 
+  box-sizing:border-box; 
+  font-family:'Poppins', sans-serif; }
+body { background:#0f0f0f; 
+  color:#fff; }
+
+/* === Heading === */
+h2.heading { text-align:center; font-size:3.5rem; margin:3rem 0 2rem; }
+h2.heading span { color:#ffe600; }
+
+/* === Work Section === */
+.work { padding:1.5rem 1rem; background: linear-gradient(to bottom, #57059e, #4a00e0); }
+.box-container { display:grid; grid-template-columns: repeat(auto-fit, minmax(380px,1fr)); gap:3rem; width:90%; margin:auto; }
+
+/* Project box */
+.box { background: rgba(0,0,22,0.9); border-radius:1rem; overflow:hidden; transition:0.3s; display:flex; flex-direction:column; box-shadow: 0 6px 15px rgba(0,0,0,0.4); }
+.box:hover { transform: scale(1.03); box-shadow: 0 12px 25px rgba(0,2,68,0.7); }
+
+/* Image */
+.box img { width:100%; height:230px; object-fit:cover; display:block; transition:0.3s; border-bottom:1px solid rgba(255,255,255,0.2); }
+.box:hover img { transform: scale(1.05); }
+
+/* Tag */
+.box .tag { padding:1rem 1.5rem; }
+.box .tag h3 { font-size:1.5rem; color:#ffe600; margin-bottom:.3rem; }
+
+/* Description */
+.box .desc { padding:0 1.5rem 1.5rem 1.5rem; }
+.box .desc p { font-size:1rem; line-height:1.6rem; color:#ddd; margin-bottom:1rem; }
+
+/* Buttons below project */
+.btns { display:flex; gap:1rem; }
+.btn { flex:1; padding:.7rem 1.2rem; background:#222; color:#fff; border-radius:.5rem; text-decoration:none; text-align:center; cursor:pointer; font-size:1.3rem; display:flex; justify-content:center; align-items:center; gap:.4rem; transition:0.3s; }
+.btn:hover { background:#ffe600; color:#000; }
+
+/* === Modal Styles === */
+.modal { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.85); backdrop-filter:blur(5px); justify-content:center; align-items:center; z-index:2000; }
+.modal-content { background:#fff; color:#000; width:90%; max-width:550px; padding:2rem; border-radius:1rem; text-align:center; animation:popup 0.4s ease; position:relative; }
+.modal-img { width:100%; border-radius:.7rem; margin-bottom:1.5rem; }
+.close { position:absolute; top:15px; right:20px; font-size:2.5rem; color:#000; cursor:pointer; }
+.modal-buttons { display:flex; justify-content:space-between; margin-top:1.5rem; }
+.modal-buttons .btn { flex:1; margin:0 .5rem; background:#222; color:#fff; font-size:1.3rem; }
+.modal-buttons .btn:hover { background:#ffe600; color:#000; }
+.back-home-wrapper {
+  width: 100%;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.back-home-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #0057ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 87, 255, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.back-home-btn:hover {
+  background: #0a3be6;
+  box-shadow: 0 6px 16px rgba(0, 64, 200, 0.4);
+  transform: translateY(-3px);
+}
+
+
+@-webkit-keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
+}
+@keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
+}
+@media (max-width: 450px) {
+  .footer .box-container .box {
+    margin: 1.5rem;
+  }
+  .footer .box-container .box p {
+    padding: 0.7rem;
+  }
+  .footer .box-container .box .share a {
+    padding: 1.2rem;
+  }
+}
+/* footer section ends */
+
+/* Popup animation */
+@keyframes popup { from { transform:scale(0.5); opacity:0; } to { transform:scale(1); opacity:1; } }
+
+/* Responsive */
+@media(max-width:500px){ 
+  .box-container { grid-template-columns: 1fr; }
+  h2.heading { font-size:3rem; margin:2.5rem 0 1.5rem; }
+  .box .tag h3 { font-size:1.8rem; }
+  .box .desc p, .btn, .modal-buttons .btn { font-size:1.2rem; }
+}
+
