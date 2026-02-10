@@ -1,5 +1,14 @@
 <p align="center">
-  <img src="project/output/P2-101.jpg" width="800" alt="Project Output Preview">
+  <img src="project/output/P1-101.png" width="800" alt="Project Output Preview">
+  <img src="project/output/P1-102.png" width="800" alt="Project Output Preview">
+  <img src="project/output/P1-103.png" width="800" alt="Project Output Preview">
+  <img src="project/output/P1-104.png" width="800" alt="Project Output Preview">
+  <img src="project/output/P1-105.png" width="800" alt="Project Output Preview">
+  <img src="project/output/P1-106.png" width="800" alt="Project Output Preview">
+  <img src="project/output/P1-107.png" width="800" alt="Project Output Preview">
+  <img src="project/output/P1-108.png" width="800" alt="Project Output Preview">
+  <img src="project/output/P1-109.png" width="800" alt="Project Output Preview">
+  <img src="project/output/P1-110.png" width="800" alt="Project Output Preview">
 </p>
 
 # 🌟 Interactive Portfolio Website
