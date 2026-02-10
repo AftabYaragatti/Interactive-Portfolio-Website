@@ -1,6 +1,5 @@
 <p align="center">
-  <img src="screenshots/desktop.png" width="900" alt="Portfolio Screenshot">
-</p>
+  <img src="../project/output/P2-101.jpg" width="900" alt="Portfolio Screenshot">
 
 # 🌟 Interactive Portfolio Website
 
