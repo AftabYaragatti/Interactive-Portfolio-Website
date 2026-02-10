@@ -54,6 +54,7 @@ This project demonstrates my **front-end web development skills** and design app
   <img src="project/output/P1-109.png" width="800" alt="Project Output Preview">
   <img src="project/output/P1-110.png" width="800" alt="Project Output Preview">
 </p>
+
 ---
 
 ## 📂 Project Structure
