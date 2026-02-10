@@ -191,7 +191,7 @@ git clone https://github.com/AftabYaragatti/Interactive-Portfolio-Website.git
 Frontend Developer | Python Programmer | Data Analyst
 
 🔗 GitHub: https://github.com/AftabYaragatti  
-🔗 Portfolio: https://aftabyaragatti.github.io/Portfolio/
+🔗 Portfolio: https://aftabyaragatti.github.io/Portfolio/     
 🔗 LinkedIn: https://www.linkedin.com/in/aftab-yaragatti     
 🔗 Instagram: https://www.instagram.com/ak_aftab143     
 
