@@ -60,17 +60,93 @@ This project demonstrates my **front-end web development skills** and design app
 
 ```
 Interactive-Portfolio-Website/
+│
 ├── assets/
+│   ├── css/
+│   │   ├── 404.css
+│   │   └── style.css
+│   │
+│   ├── images/
+│   │   ├── educat/
+│   │   │   ├── PUCollege.webp
+│   │   │   ├── college.jpg
+│   │   │   └── school.jpg
+│   │   │
+│   │   ├── skills/
+│   │   │   └── TailwindCSS.png
+│   │   │
+│   │   ├── Resume.pdf
+│   │   ├── android.jpg
+│   │   ├── cmsoon.png
+│   │   ├── contact.png
+│   │   ├── contact1.png
+│   │   ├── favhand.png
+│   │   ├── favicon.png
+│   │   ├── hero.png
+│   │   ├── hero1.jpg
+│   │   ├── hero1.png
+│   │   ├── lapy.jpg
+│   │   ├── preloader.gif
+│   │   ├── profile.png
+│   │   ├── profile2.png
+│   │   └── react.png
+│   │
+│   └── js/
+│       ├── 404.js
+│       └── script.js
+│
 ├── experience/
+│   ├── certificate/
+│   │   ├── AI.jpg
+│   │   ├── DBMS.jpg
+│   │   ├── DSA.jpg
+│   │   ├── Java.jpg
+│   │   ├── ML.jpg
+│   │   ├── Python.jpg
+│   │   └── Web.jpg
+│   │
+│   ├── experience_index.html
+│   ├── script.js
+│   └── style.css
+│
 ├── project/
-├── screenshots/
-│   ├── desktop.png
-│   ├── mobile.png
-│   └── projects.png
+│   ├── Output/
+│   │   ├── P1-101.png
+│   │   ├── P1-102.png
+│   │   ├── P1-103.png
+│   │   ├── P1-104.png
+│   │   ├── P1-105.png
+│   │   ├── P1-106.png
+│   │   ├── P1-107.png
+│   │   ├── P1-108.png
+│   │   ├── P1-109.png
+│   │   ├── P1-110.png
+│   │   ├── P1-View.html
+│   │   │
+│   │   ├── P2-101.jpg
+│   │   ├── P2-102.jpg
+│   │   ├── P2-103.jpg
+│   │   ├── P2-104.jpg
+│   │   ├── P2-105.jpg
+│   │   ├── P2-106.jpg
+│   │   ├── P2-107.jpg
+│   │   ├── P2-108.jpg
+│   │   ├── P2-109.jpg
+│   │   ├── P2-110.jpg
+│   │   ├── P2-111.jpg
+│   │   ├── P2-112.jpg
+│   │   ├── P2-113.jpg
+│   │   ├── P2-114.jpg
+│   │   └── P2-View.html
+│   │
+│   ├── project_index.html
+│   ├── script.js
+│   └── style.css
+│
 ├── index.html
 ├── skills.json
-├── style.css
-└── script.js
+├── 404.html
+└── README.md
 ```
 
 ---
@@ -112,10 +188,10 @@ git clone https://github.com/AftabYaragatti/Interactive-Portfolio-Website.git
 ## 👨‍💻 About Me
 
 **Aftab Yaragatti**  
-Frontend Developer | Python Programmer | AIML Enthusiast
+Frontend Developer | Python Programmer | Data Analyst
 
 🔗 GitHub: https://github.com/AftabYaragatti  
-🔗 LinkedIn: https://www.linkedin.com/in/aftab-yaragatti
+🔗 LinkedIn: https://www.linkedin.com/in/aftab-yaragatti     
 🔗 Instagram: https://www.instagram.com/ak_aftab143 
 
 ---
