@@ -12,7 +12,7 @@ This is a fully responsive, professional portfolio built with **HTML, CSS & Java
 ## 🚀 Live Preview
 
 👉 Visit Live Site:  
-🔗 https://aftabyaragatti.github.io/Interactive-Portfolio-Website
+🔗 https://aftabyaragatti.github.io/Portfolio/
 
 Explore on both **desktop and mobile** devices for the best experience!
 
@@ -191,8 +191,9 @@ git clone https://github.com/AftabYaragatti/Interactive-Portfolio-Website.git
 Frontend Developer | Python Programmer | Data Analyst
 
 🔗 GitHub: https://github.com/AftabYaragatti  
+🔗 Portfolio: https://aftabyaragatti.github.io/Portfolio/
 🔗 LinkedIn: https://www.linkedin.com/in/aftab-yaragatti     
-🔗 Instagram: https://www.instagram.com/ak_aftab143 
+🔗 Instagram: https://www.instagram.com/ak_aftab143     
 
 ---
 
