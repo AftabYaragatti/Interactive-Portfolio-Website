@@ -1,14 +1,5 @@
 <p align="center">
   <img src="project/output/P1-101.png" width="800" alt="Project Output Preview">
-  <img src="project/output/P1-102.png" width="800" alt="Project Output Preview">
-  <img src="project/output/P1-103.png" width="800" alt="Project Output Preview">
-  <img src="project/output/P1-104.png" width="800" alt="Project Output Preview">
-  <img src="project/output/P1-105.png" width="800" alt="Project Output Preview">
-  <img src="project/output/P1-106.png" width="800" alt="Project Output Preview">
-  <img src="project/output/P1-107.png" width="800" alt="Project Output Preview">
-  <img src="project/output/P1-108.png" width="800" alt="Project Output Preview">
-  <img src="project/output/P1-109.png" width="800" alt="Project Output Preview">
-  <img src="project/output/P1-110.png" width="800" alt="Project Output Preview">
 </p>
 
 # 🌟 Interactive Portfolio Website
@@ -51,22 +42,18 @@ This project demonstrates my **front-end web development skills** and design app
 ---
 
 ## 📸 Screenshots
-
-### 🖥️ Desktop View (Hero + Navigation)
 <p align="center">
-  <img src="screenshots/desktop.png" width="800" alt="Desktop View">
+  <img src="project/output/P1-101.png" width="800" alt="Project Output Preview">
+  <img src="project/output/P1-102.png" width="800" alt="Project Output Preview">
+  <img src="project/output/P1-103.png" width="800" alt="Project Output Preview">
+  <img src="project/output/P1-104.png" width="800" alt="Project Output Preview">
+  <img src="project/output/P1-105.png" width="800" alt="Project Output Preview">
+  <img src="project/output/P1-106.png" width="800" alt="Project Output Preview">
+  <img src="project/output/P1-107.png" width="800" alt="Project Output Preview">
+  <img src="project/output/P1-108.png" width="800" alt="Project Output Preview">
+  <img src="project/output/P1-109.png" width="800" alt="Project Output Preview">
+  <img src="project/output/P1-110.png" width="800" alt="Project Output Preview">
 </p>
-
-### 📱 Mobile View (Responsive Layout)
-<p align="center">
-  <img src="screenshots/mobile.png" width="350" alt="Mobile View">
-</p>
-
-### ✨ Interactive Project Section
-<p align="center">
-  <img src="screenshots/projects.png" width="800" alt="Projects Section">
-</p>
-
 ---
 
 ## 📂 Project Structure
@@ -128,7 +115,8 @@ git clone https://github.com/AftabYaragatti/Interactive-Portfolio-Website.git
 Frontend Developer | Python Programmer | AIML Enthusiast
 
 🔗 GitHub: https://github.com/AftabYaragatti  
-🔗 LinkedIn: https://www.linkedin.com/in/your-profile
+🔗 LinkedIn: https://www.linkedin.com/in/aftab-yaragatti
+🔗 Instagram: https://www.instagram.com/ak_aftab143 
 
 ---
 
